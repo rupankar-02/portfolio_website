@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Section</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #projects .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        #projects .card:hover {
+            transform: translateY(-10px); /* Slight lift effect */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow on hover */
+        }
+    
+        #projects .card-title {
+            color: #333; /* Customize title color */
+        }
+    
+        #projects .card-text {
+            color: #555; /* Customize text color */
+        }
+    
+        #projects .card-body a {
+            color: #007bff; /* Link color */
+        }
+    
+        #projects .card-body a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+
+        
+        html {
+        scroll-behavior: smooth;
+    }
+
+    /* Ensure the navbar does not overlap sections */
+    body {
+        padding-top: 80px; /* Adjust if needed to prevent overlap */
+    }
+
+
+        
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <!-- About Section -->
+    <section id="about" class="container text-center py-5">
+        <h2 class="mb-4 fw-bold">About</h2>
+        <div class="mb-4">
+            <img src="C:\Users\2022r\Desktop\portfolio\images\about\dp.jfif" alt="Personal Image Placeholder" class="rounded-circle img-fluid" style="width: 150px; height: 150px;">
+        </div>
+        <p class="lead">
+            Hi , I am Rupankar Mitra. I am pursuing my Master's in Computer Science specializing in AI/ML at Kerala University of Digital Sciences Innovation and Technology (formerly IIITM-K). Born and Brought up in Krishnanagar, West Bengal. I have done my schooling at Krishnanagar A.V High School in 2019, with science as my background.After earning my degree in Physics, I discovered my passion for solving complex problems using data-driven approaches. This realization inspired me to transition into the field of data science and machine learning, where I could blend my analytical mindset with cutting-edge technology. 
+
+        </p>
+        <p class="text-muted">
+            I am deeply passionate about the fields of Machine Learning and Data Science and am currently dedicated to honing my skills and expanding my expertise in these areas.I am a firm believer of passion and determination can lead you to success. 
+
+        </p>
+    </section>
+    <!-- Project Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\2022r\Desktop\portfolio\images\projects\automatic_image_caption.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Automatic Image Caption Generator</h5>
+                            <p class="card-text">This project demonstrates the development of an “Image Caption Generator” using deep learning techniques, specifically combining “Convolutional Neural Networks (CNNs)” for image processing and “Long Short-Term Memory (LSTM)” units for natural language processing.</p>
+                            <a href="https://example.com/blog1" class="btn btn-link">Blog Post</a>
+                            <a href="https://github.com/rupankar-02/Automatic-Image-Caption-Generator-Using-Deep-Learning.git" class="btn btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\2022r\Desktop\portfolio\images\projects\insuarance_claim.jpeg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Insurance Claim Severity Prediction </h5>
+                            <p class="card-text">This project aims to predict the severity of insurance claims using machine learning and deep learning models. The model is trained on historical claim data to assist in determining the severity of future claims, improving resource allocation and reducing potential costs.</p>
+                            <a href="https://example.com/blog2" class="btn btn-link">Blog Post</a>
+                            <a href=https://github.com/rupankar-02/Insurance-Claims-Severity-Prediction.git class="btn btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\2022r\Desktop\portfolio\images\projects\symptom_collection.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Multilingual Symptoms Collection and Management Bot</h5>
+                            <p class="card-text">The project aims to develop a scalable, multilingual symptom collection and management bot. It leverages technologies like speech-to-text conversion and large language models (LLMs) to automate the process of gathering and analyzing patient symptoms in multiple languages.</p>
+                            <a href="https://example.com/blog3" class="btn btn-link">Blog Post</a>
+                            <a href="https://github.com/rupankar-02/Multilingual_Symptom_Collection_Management_Bot.git" class="btn btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Project 4 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\2022r\Desktop\portfolio\images\projects\resturant_review.jfif" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Resturant Review Analysis System</h5>
+                            <p class="card-text">The Restaurant Review Analysis System enables customers to submit reviews of food items and provides restaurant owners with insights through a dashboard. The system classifies customer reviews as positive or negative and displays the percentage of reviews for each item.</p>
+                            <a href="https://example.com/blog4" class="btn btn-link">Blog Post</a>
+                            <a href="https://github.com/rupankar-02/Resturant_Review_Analysis.git" class="btn btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\2022r\Desktop\portfolio\images\projects\face_musk.jfif" class="card-img-top" alt="Project 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Face Musk Detection</h5>
+                            <p class="card-text">This project focuses on developing a machine learning model to automatically detect whether individuals in an image are wearing a face mask. The need for automated mask detection has become crucial during global health emergencies like the COVID-19 pandemic, where monitoring public spaces for mask compliance can reduce the risk of virus transmission.</p>
+                            <a href="https://example.com/blog5" class="btn btn-link">Blog Post</a>
+                            <a href="https://github.com/rupankar-02/Face_mask_detection.git" class="btn btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\2022r\Desktop\portfolio\images\projects\multiple_disease_pred.png" class="card-img-top" alt="Project 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Multiple Disease Prediction</h5>
+                            <p class="card-text">This project uses several Machine learning algorithma and Deep Learning to predict multiple diseases which have real time application, this project is basically divided into three steps i) Model trading ii) giving input to the model using camera iii) prediction. The main aim of the project is to predict the person is having disease based on input given to the model for doing the prediction streamlit framework is used.</p>
+                            <a href="https://example.com/blog6" class="btn btn-link">Blog Post</a>
+                            <a href="https://github.com/rupankar-02/multiple_disease_prediction.git" class="btn btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row text-center">
+                <!-- Skill 1 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\Scikit_learn.png" class="img-fluid mb-3" alt="Skill 1" style="max-height: 100px;">
+                    <h5>Scikit learn</h5>
+                    <p>I used scikit learn in various projects like multiple disease prediction ,Insurance Claims Severity Prediction for Data precessing , Model training , Model evation and other tasks</p>
+                </div>
+                <!-- Skill 2 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\tensorflow.jfif" class="img-fluid mb-3" alt="Skill 2" style="max-height: 100px;">
+                    <h5>TensorFlow</h5>
+                    <p>For the deep learning based projects like Automatic Image Caption Generator , Face Musk Detection I utilized Tensorflow with keras for building the models like CNN , LSTM also loading pretrained models such as DenseNet . Also for tasks like model optimization, traning , evaluation etc. </p>
+                </div>
+                <!-- Skill 3 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\pandas.png" class="img-fluid mb-3" alt="Skill 3" style="max-height: 100px;">
+                    <h5>Pandas</h5>
+                    <p>I used pandas for various file handling and data manupulation tasks such as data cleaning ,handling missing values,outlier detection and removal , strandizing the data etc.</p>
+                </div>
+                <!-- Skill 4 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\sql.jfif" class="img-fluid mb-3" alt="Skill 4" style="max-height: 100px;">
+                    <h5>SQL</h5>
+                    <p>In my project Resturant Review Analysis system I used SQL for CRUD operation using mySQL database for retriving,adding,removing,analysis of the customer data to get insights.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <!-- Skill 5 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\numpy.png" class="img-fluid mb-3" alt="Skill 5" style="max-height: 100px;">
+                    <h5>Numpy</h5>
+                    <p>used it for mathematical operation on multidimensional datasets also used for mathematical and statistical analysis</p>
+                </div>
+                <!-- Skill 6 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\matplotlib.png" class="img-fluid mb-3" alt="Skill 6" style="max-height: 100px;">
+                    <h5>Matplotlib</h5>
+                    <p>Im my insurance claim severnity prediction project I used boxplot,distplot,heatmap,scattermap and few other visualization from Matplotlib to get a better idea of the data didtribution</p>
+                </div>
+                <!-- Skill 7 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\natural-language-processing.png" class="img-fluid mb-3" alt="Skill 7" style="max-height: 100px;">
+                    <h5>Natural language Processing</h5>
+                    <p>Proficient in Natural Language Processing (NLP), with expertise in text extraction, language modeling, and fine-tuning transformer-based models for diverse applications.I used techniques like word embeddings ,tokenization,one hot encoding ,vector embedding in various projects</p>
+                </div>
+                <!-- Skill 8 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\machine_learning.jpg" class="img-fluid mb-3" alt="Skill 8" style="max-height: 100px;">
+                    <h5>Machine Lerning </h5>
+                    <p>Skilled in Machine Learning with hands-on experience in implementing regression and classification models for diverse projects. Strong mathematical foundation and practical expertise in applying ML techniques effectively</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <!-- Skill 9 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\Deep_learning.jfif" class="img-fluid mb-3" alt="Skill 9" style="max-height: 100px;">
+                    <h5>Deep Learning</h5>
+                    <p>Proficient in Deep Learning with strong foundational concepts, having implemented CNN and LSTM in an image caption generator project and utilized pretrained CNN models for a face mask detection system.</p>
+                </div>
+                <!-- Skill 10 -->
+                <div class="col-md-3 mb-4">
+                    <img src="images/skills/llm.jfif" class="img-fluid mb-3" alt="Skill 10" style="max-height: 100px;">
+                    <h5>Gen AI and LLMs</h5>
+                    <p>Skilled in Generative AI and Large Language Models (LLMs), with expertise in model fine-tuning, prompt engineering, and vector databases. Implemented LLaMA-2 in a multilingual symptom collection bot project and currently exploring LangChain and Retrieval-Augmented Generation (RAG).</p>
+                </div>
+                <!-- Skill 11 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\hugging face.png" class="img-fluid mb-3" alt="Skill 11" style="max-height: 100px;">
+                    <h5>Hugging Face</h5>
+                    <p>Proficient in using the Hugging Face library for loading various pretrained models, fine-tuning them for specific tasks, and efficiently saving and deploying models.</p>
+                </div>
+                <!-- Skill 12 -->
+                <div class="col-md-3 mb-4">
+                    <img src="C:\Users\2022r\Desktop\portfolio\images\skills\NLTk.png" class="img-fluid mb-3" alt="Skill 12" style="max-height: 100px;">
+                    <h5>NLTk</h5>
+                    <p>Proficient in using NLTK for various Natural Language Processing tasks, including Named Entity Recognition (NER), Part-of-Speech (POS) tagging, tokenization, and generating word embeddings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Me Section -->
+<section id="contact" class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Contact Me</h2>
+      <div class="mb-3">
+        <p class="mb-0">
+          <i class="bi bi-envelope"></i> 2017rupankarmitra@gmail.com
+        </p>
+        <p>
+          <i class="bi bi-telephone"></i> 9064595108
+        </p>
+      </div>
+      <div class="d-flex justify-content-center gap-4">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/rupankar-mitra-5bb508295/" target="_blank" class="text-decoration-none">
+          <img src="icons/linkedin.png" alt="LinkedIn" class="rounded-circle p-2 bg-light border border-2 border-white" style="width: 60px; height: 60px;">
+        </a>
+        <!-- GitHub -->
+        <a href="https://github.com/rupankar-02" target="_blank" class="text-decoration-none">
+          <img src="icons/github.png" alt="GitHub" class="rounded-circle p-2 bg-light border border-2 border-white" style="width: 60px; height: 60px;">
+        </a>
+        <!-- Medium -->
+        <a href="https://medium.com/@2017rupankarmitra" target="_blank" class="text-decoration-none">
+          <img src="icons/medium.png" alt="Medium" class="rounded-circle p-2 bg-light border border-2 border-white" style="width: 60px; height: 60px;">
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  
+    
+    
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
